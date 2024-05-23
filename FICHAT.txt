@@ -1,0 +1,317 @@
+
+    [
+        r"hola|buenos días|buenas tardes",
+        ["¡Hola! ¿Cómo puedo ayudarte hoy?",]
+    ],
+    [
+        r"mi nombre es (.*)",
+        ["Hola %1, es un placer conocerte. ¿Cómo puedo ayudarte hoy?",]
+    ],
+    [
+        r"adiós|chau|nos vemos",
+        ["Adiós, ¡que tengas un buen día!", "¡Hasta luego!",]
+    ],
+    [
+        r"¿quién eres?|¿qué eres?",
+        ["Soy un chatbot creado para ayudarte con tus preguntas. ¿En qué puedo asistirte?",]
+    ],
+    [
+        r"¿quién te creó?|¿cómo fuiste creado?",
+        ["Fui creado por un desarrollador utilizando la biblioteca NLTK en Python.",]
+    ],
+    [
+        r"¿qué puedes hacer?",
+        ["Puedo responder a tus preguntas y mantener una conversación básica. ¿En qué más puedo ayudarte?",]
+    ],
+    [
+        r"¿qué hora es?",
+        ["No tengo un reloj, pero puedes verificar la hora en tu dispositivo.",]
+    ],
+    [
+        r"¿qué día es hoy?",
+        ["Hoy es un buen día para aprender algo nuevo. Puedes verificar la fecha en tu dispositivo.",]
+    ],
+    [
+        r"¿cuál es la capital de (.*)?",
+        ["La capital de %1 es {obtener_capital(%1)}.",]
+    ],
+    [
+        r"¿quién es el presidente de (.*)?",
+        ["El presidente de %1 es {obtener_presidente(%1)}.",]
+    ],
+    [
+        r"¿cómo estás?|¿cómo te va?",
+        ["Estoy bien, gracias. ¿Y tú?",]
+    ],
+    [
+        r"¿qué haces?|¿qué estás haciendo?",
+        ["Estoy aquí para ayudarte. ¿En qué puedo asistirte?",]
+    ],
+    [
+        r"cuéntame un chiste",
+        ["¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.", "¿Por qué las bicicletas no pueden estar de pie solas? Porque están dos-tiradas.",]
+    ],
+    [
+        r"¿cómo está el clima en (.*)?",
+        ["No puedo verificar el clima en tiempo real, pero puedes usar una aplicación de clima para averiguarlo.",]
+    ],
+    [
+        r".*mision.*vision.*",
+        ["La misión de la Facultad de Ingeniería de la UNAM es formar profesionales con conocimientos de vanguardia, habilidades profesionales, compromiso ético y visión humanista. La visión incluye programas educativos de vanguardia, personal académico actualizado, y un ambiente académico propicio y colaborativo.",]
+    ],
+    [
+        r"hola|buenos días|buenas tardes",
+        ["¡Hola! ¿Cómo puedo ayudarte hoy?",]
+    ],
+    [
+        r"mi nombre es (.*)",
+        ["Hola %1, es un placer conocerte. ¿Cómo puedo ayudarte hoy?",]
+    ],
+    [
+        r"adiós|chau|nos vemos",
+        ["Adiós, ¡que tengas un buen día!", "¡Hasta luego!",]
+    ],
+    [
+        r"¿quién eres?|¿qué eres?",
+        ["Soy un chatbot creado para ayudarte con tus preguntas. ¿En qué puedo asistirte?",]
+    ],
+    [
+        r"¿quién te creó?|¿cómo fuiste creado?",
+        ["Fui creado por un desarrollador utilizando la biblioteca NLTK en Python.",]
+    ],
+    [
+        r"¿qué puedes hacer?",
+        ["Puedo responder a tus preguntas y mantener una conversación básica. ¿En qué más puedo ayudarte?",]
+    ],
+    [
+        r"¿cuál es la misión de la Facultad de Ingeniería de la UNAM?",
+        ["La misión de la Facultad de Ingeniería de la UNAM es formar ingenieros líderes con conocimientos, habilidades y compromiso ético para contribuir al desarrollo sustentable y tecnológico del país.",]
+    ],
+    [
+        r"¿cuál es la visión de la Facultad de Ingeniería de la UNAM?",
+        ["La visión de la Facultad de Ingeniería de la UNAM es ser una institución reconocida internacionalmente por su calidad educativa, investigación y desarrollo tecnológico, con impacto significativo en la sociedad.",]
+    ],
+    [
+        r"¿qué programas de estudio ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de estudio en diversas áreas de la ingeniería, incluyendo civil, mecánica, eléctrica, y más.",]
+    ],
+    [
+        r"¿cuáles son los valores fundamentales de la Facultad de Ingeniería?",
+        ["Los valores fundamentales de la Facultad de Ingeniería incluyen la excelencia académica, la ética, la responsabilidad social y la innovación.",]
+    ],
+    [
+        r"¿cuándo fue fundada la Facultad de Ingeniería de la UNAM?",
+        ["La Facultad de Ingeniería de la UNAM fue fundada en 1910.",]
+    ],
+    [
+        r"¿quién es el director de la Facultad de Ingeniería?",
+        ["El director de la Facultad de Ingeniería es el Dr. Carlos Agustín Escalante Sandoval.",]
+    ],
+    [
+        r"¿qué departamentos académicos tiene la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería tiene varios departamentos académicos, incluyendo el Departamento de Ingeniería Civil, Ingeniería Mecánica, Ingeniería Eléctrica, entre otros.",]
+    ],
+    [
+        r"¿qué servicios ofrece la Facultad de Ingeniería a sus estudiantes?",
+        ["La Facultad de Ingeniería ofrece diversos servicios a sus estudiantes, como asesorías académicas, bibliotecas, laboratorios y actividades extracurriculares.",]
+    ],
+    [
+        r"¿dónde está ubicada la Facultad de Ingeniería de la UNAM?",
+        ["La Facultad de Ingeniería de la UNAM está ubicada en Ciudad Universitaria, en la Ciudad de México.",]
+    ],
+    [
+        r"¿cómo puedo contactar a la Facultad de Ingeniería de la UNAM?",
+        ["Puedes contactar a la Facultad de Ingeniería a través de su página web o llamando a sus números de contacto disponibles en el sitio.",]
+    ],
+    [
+        r"¿qué laboratorios están disponibles en la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería cuenta con laboratorios especializados en diversas áreas de la ingeniería, como el laboratorio de hidráulica, laboratorio de materiales, entre otros.",]
+    ],
+    [
+        r"¿cuáles son las principales áreas de investigación de la Facultad de Ingeniería?",
+        ["Las principales áreas de investigación incluyen la ingeniería civil, mecánica, eléctrica, ambiental, y más.",]
+    ],
+    [
+        r"¿qué oportunidades de intercambio ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece oportunidades de intercambio con diversas universidades internacionales para enriquecer la formación académica de sus estudiantes.",]
+    ],
+    [
+        r"¿cómo puedo inscribirme en la Facultad de Ingeniería?",
+        ["Puedes inscribirte a la Facultad de Ingeniería siguiendo el proceso de admisión disponible en su sitio web, que incluye exámenes y requisitos académicos.",]
+    ],
+    [
+        r"¿qué actividades extracurriculares ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece diversas actividades extracurriculares, incluyendo clubes de robótica, sociedades estudiantiles, y eventos deportivos.",]
+    ],
+    [
+        r"¿qué premios y reconocimientos ha recibido la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ha recibido varios premios y reconocimientos por su excelencia académica y contribuciones a la investigación y desarrollo tecnológico.",]
+    ],
+    [
+        r"¿qué eventos importantes organiza la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería organiza eventos importantes como congresos, seminarios, ferias de ingeniería y semanas culturales.",]
+    ],
+    [
+        r"¿qué programas de posgrado ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de posgrado en diversas áreas de la ingeniería, incluyendo maestrías y doctorados.",]
+    ],
+    [
+        r"¿qué alianzas y colaboraciones tiene la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería tiene alianzas y colaboraciones con diversas instituciones y empresas para promover la investigación y el desarrollo tecnológico.",]
+    ],
+    [
+        r"¿cómo apoya la Facultad de Ingeniería a los emprendedores?",
+        ["La Facultad de Ingeniería apoya a los emprendedores a través de programas de incubación, asesorías y acceso a recursos tecnológicos y financieros.",]
+    ],
+    [
+        r"hola|buenos días|buenas tardes",
+        ["¡Hola! ¿Cómo puedo ayudarte hoy?",]
+    ],
+    [
+        r"mi nombre es (.*)",
+        ["Hola %1, es un placer conocerte. ¿Cómo puedo ayudarte hoy?",]
+    ],
+    [
+        r"adiós|chau|nos vemos",
+        ["Adiós, ¡que tengas un buen día!", "¡Hasta luego!",]
+    ],
+    [
+        r"¿quién eres?|¿qué eres?",
+        ["Soy un chatbot creado para ayudarte con tus preguntas. ¿En qué puedo asistirte?",]
+    ],
+    [
+        r"¿quién te creó?|¿cómo fuiste creado?",
+        ["Fui creado por un desarrollador utilizando la biblioteca NLTK en Python.",]
+    ],
+    [
+        r"¿qué puedes hacer?",
+        ["Puedo responder a tus preguntas y mantener una conversación básica. ¿En qué más puedo ayudarte?",]
+    ],
+    [
+        r"¿cuál es la misión de la Facultad de Ingeniería de la UNAM?",
+        ["La misión de la Facultad de Ingeniería de la UNAM es formar ingenieros líderes con conocimientos, habilidades y compromiso ético para contribuir al desarrollo sustentable y tecnológico del país.",]
+    ],
+    [
+        r"¿cuál es la visión de la Facultad de Ingeniería de la UNAM?",
+        ["La visión de la Facultad de Ingeniería de la UNAM es ser una institución reconocida internacionalmente por su calidad educativa, investigación y desarrollo tecnológico, con impacto significativo en la sociedad.",]
+    ],
+    [
+        r"¿qué programas de estudio ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de estudio en diversas áreas de la ingeniería, incluyendo civil, mecánica, eléctrica, y más.",]
+    ],
+    [
+        r"¿cuáles son los valores fundamentales de la Facultad de Ingeniería?",
+        ["Los valores fundamentales de la Facultad de Ingeniería incluyen la excelencia académica, la ética, la responsabilidad social y la innovación.",]
+    ],
+    [
+        r"¿cuándo fue fundada la Facultad de Ingeniería de la UNAM?",
+        ["La Facultad de Ingeniería de la UNAM fue fundada en 1910.",]
+    ],
+    [
+        r"¿quién es el director de la Facultad de Ingeniería?",
+        ["El director de la Facultad de Ingeniería es el Dr. Carlos Agustín Escalante Sandoval.",]
+    ],
+    [
+        r"¿qué departamentos académicos tiene la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería tiene varios departamentos académicos, incluyendo el Departamento de Ingeniería Civil, Ingeniería Mecánica, Ingeniería Eléctrica, entre otros.",]
+    ],
+    [
+        r"¿qué servicios ofrece la Facultad de Ingeniería a sus estudiantes?",
+        ["La Facultad de Ingeniería ofrece diversos servicios a sus estudiantes, como asesorías académicas, bibliotecas, laboratorios y actividades extracurriculares.",]
+    ],
+    [
+        r"¿dónde está ubicada la Facultad de Ingeniería de la UNAM?",
+        ["La Facultad de Ingeniería de la UNAM está ubicada en Ciudad Universitaria, en la Ciudad de México.",]
+    ],
+    [
+        r"¿cómo puedo contactar a la Facultad de Ingeniería de la UNAM?",
+        ["Puedes contactar a la Facultad de Ingeniería a través de su página web o llamando a sus números de contacto disponibles en el sitio.",]
+    ],
+    [
+        r"¿qué laboratorios están disponibles en la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería cuenta con laboratorios especializados en diversas áreas de la ingeniería, como el laboratorio de hidráulica, laboratorio de materiales, entre otros.",]
+    ],
+    [
+        r"¿cuáles son las principales áreas de investigación de la Facultad de Ingeniería?",
+        ["Las principales áreas de investigación incluyen la ingeniería civil, mecánica, eléctrica, ambiental, y más.",]
+    ],
+    [
+        r"¿qué oportunidades de intercambio ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece oportunidades de intercambio con diversas universidades internacionales para enriquecer la formación académica de sus estudiantes.",]
+    ],
+    [
+        r"¿cómo puedo inscribirme en la Facultad de Ingeniería?",
+        ["Puedes inscribirte a la Facultad de Ingeniería siguiendo el proceso de admisión disponible en su sitio web, que incluye exámenes y requisitos académicos.",]
+    ],
+    [
+        r"¿qué actividades extracurriculares ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece diversas actividades extracurriculares, incluyendo clubes de robótica, sociedades estudiantiles, y eventos deportivos.",]
+    ],
+    [
+        r"¿qué premios y reconocimientos ha recibido la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ha recibido varios premios y reconocimientos por su excelencia académica y contribuciones a la investigación y desarrollo tecnológico.",]
+    ],
+    [
+        r"¿qué eventos importantes organiza la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería organiza eventos importantes como congresos, seminarios, ferias de ingeniería y semanas culturales.",]
+    ],
+    [
+        r"¿qué programas de posgrado ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de posgrado en diversas áreas de la ingeniería, incluyendo maestrías y doctorados.",]
+    ],
+    [
+        r"¿qué alianzas y colaboraciones tiene la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería tiene alianzas y colaboraciones con diversas instituciones y empresas para promover la investigación y el desarrollo tecnológico.",]
+    ],
+    [
+        r"¿cómo apoya la Facultad de Ingeniería a los emprendedores?",
+        ["La Facultad de Ingeniería apoya a los emprendedores a través de programas de incubación, asesorías y acceso a recursos tecnológicos y financieros.",]
+    ],
+    [
+        r"¿qué especializaciones se ofrecen en la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece especializaciones en diversas áreas como ingeniería civil, ingeniería eléctrica, ingeniería mecánica, entre otras.",]
+    ],
+    [
+        r"¿qué maestrías se pueden cursar en la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece maestrías en varias disciplinas, incluyendo ingeniería ambiental, ingeniería de sistemas, ingeniería estructural, entre otras.",]
+    ],
+    [
+        r"¿qué doctorados se pueden cursar en la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de doctorado en áreas como ingeniería civil, ingeniería eléctrica, ingeniería mecánica, entre otras.",]
+    ],
+    [
+        r"¿qué programas de educación continua ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de educación continua para actualización profesional en diversas áreas de la ingeniería.",]
+    ],
+    [
+        r"¿qué programas de licenciatura ofrece la Facultad de Ingeniería?",
+        ["La Facultad de Ingeniería ofrece programas de licenciatura en ingeniería civil, ingeniería mecánica, ingeniería eléctrica, ingeniería en computación, entre otras.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería en sistemas biomédicos?",
+        ["El programa de ingeniería en sistemas biomédicos se enfoca en la aplicación de principios de ingeniería para resolver problemas en el ámbito de la salud.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería mecatrónica?",
+        ["El programa de ingeniería mecatrónica combina conocimientos de mecánica, electrónica y sistemas de control para diseñar y desarrollar sistemas automatizados.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería en computación?",
+        ["El programa de ingeniería en computación se enfoca en el diseño y desarrollo de sistemas y aplicaciones computacionales.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería en telecomunicaciones?",
+        ["El programa de ingeniería en telecomunicaciones se centra en la tecnología y sistemas de comunicación a larga distancia.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería geofísica?",
+        ["El programa de ingeniería geofísica se dedica al estudio de la Tierra utilizando métodos físicos para entender su estructura y procesos.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería petrolera?",
+        ["El programa de ingeniería petrolera se enfoca en la exploración y explotación de recursos petrolíferos y gasíferos.",]
+    ],
+    [
+        r"¿qué es el programa de ingeniería de minas y metalurgia?",
+        ["El programa de ingeniería de minas y metalurgia se dedica al estudio y aplicación de técnicas para la extracción y procesamiento de minerales.",]
+    ],
